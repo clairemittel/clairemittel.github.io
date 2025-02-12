@@ -1,6 +1,6 @@
 project:
   type: website
-output-dir: docs
+  output-dir: docs
 website:
   title: "clairemittel.github.io"
   navbar:
@@ -8,10 +8,19 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Resume.qmd
+      - Projects.qmd
+  page-footer: 
+    background: dark
+    left: Copyright 2025, Claire Mittel
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/clairemittel){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - solar
+      - styles.scss
+    mainfont: oswald
     css: styles.css
     toc: true
 

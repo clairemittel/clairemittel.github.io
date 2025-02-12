@@ -1,11 +1,19 @@
 ---
-title: "clairemittel.github.io"
+title: "Claire Mittel"
+image: images/profile.JPG
+about: 
+  template: trestles
+  image-shape: rectangle
+  image-width: 17em
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/clairemittel
+      target: blank
+    - icon: github
+      text: Github
+      href: https://github.com/clairemittel
+      target: blank
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hi! My name is Claire and I'm a third year Ecosystem Science and Sustainability major with a minor in Conservation Biology. I have a huge passion for the outdoors and love to hike, camp, and fly fish. Usually, you can find me reading a book, I do that whenever I have any free time. My passion in sustainability is specifically in sustainable fashion and beauty products.
